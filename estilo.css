@@ -1,0 +1,70 @@
+.text-center {
+  text-align: center;
+  color: black;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin-bottom: 1.5rem;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card-img-top {
+  max-height: 250px;
+  object-fit: contain;
+  padding: 1rem;
+}
+.card-body {
+  text-align: center;
+}
+.product-title {
+  font-size: 1rem;
+  min-height: 48px; /* To ensure consistent height for titles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.product-brand {
+  font-weight: bold;
+  color: #333;
+}
+.product-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #d63384; /* A shade of pink similar to the image */
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+.btn-pink {
+  background-color: #d63384; /* A shade of pink similar to the image */
+  border-color: #d63384;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  width: 90%;
+  border-radius: 25px; /* Rounded button */
+}
+.btn-pink:hover {
+  background-color: #c02b74;
+  border-color: #c02b74;
+  color: white;
+}
+.rating {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+.rating .fas.fa-star {
+  color: #ffc107; /* Yellow for filled stars if active, but they are grey in the image */
+}
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #ccc; /* Grey color for the heart icon */
+  cursor: pointer;
+}
